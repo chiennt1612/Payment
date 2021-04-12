@@ -1,0 +1,28 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false, 
+    "anonymousAuthentication": true, 
+    "iisExpress": {
+      "applicationUrl": "http://localhost:55827",
+      "sslPort": 44366
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Payment": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "https://vtalent-payment.schoolbus.cf:8443/swagger", //"https://localhost:5006/swagger",
+      "applicationUrl": "https://vtalent-payment.schoolbus.cf:8443",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Production"
+      }
+    }
+  }
+}
